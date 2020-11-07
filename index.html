@@ -1,0 +1,28 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+	Main page
+{% endblock %}
+
+
+
+{% block content %}
+			<div class="task_title">Thermal characteristics of the building, the need for thermal energy for heating, hot water and ventilation</div>
+		<div class="task_subtitle">Hello! To get started, first you need to enter thermal characteristics of the building</div>
+		
+	
+		<form>
+		  <div class="form-group">
+			<label for="exampleInputEmail1">Enter the specific heat loss of the building (Wt/m^2):</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		  </div>
+		  <div class="form-group">
+			<label for="exampleInputPassword1">Enter the total area of the room:</label>
+			<input type="password" class="form-control" id="exampleInputPassword1">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+{% endblock %}
+
+
+
